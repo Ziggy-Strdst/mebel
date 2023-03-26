@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230326174444">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header-desc">
+			<div data-da=".mobile__footer, 950" class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__menu">
+						<a data-da=".top-header__links, 950" class="menu__location" href="delivery.html">
+							<img src="img/icons/Icon-pin.svg" alt="" />
+							<span>Москва</span></a>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="delivery.html" class="menu__link">Доставка</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Оплата</a>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link">Акции</a></li>
+								<li class="menu__item">
+									<a href="contacts.html" class="menu__link">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="top-header__links links">
+						<div class="links__list">
+							<ul class="links__social">
+								<li class="links__item">
+									<a href="" class="links__link links__telegram">
+										<img src="img/icons/TelegramLogo.svg" alt="" />
+									</a>
+								</li>
+								<li class="links__item">
+									<a href="" class="links__link links__whatsapp">
+										<img src="img/icons/WhatsappLogo.svg" alt="" />
+									</a>
+								</li>
+							</ul>
+							<a href="" class="links__link links__phone">8(800)555-35-35</a>
+							<a href="#" class="links__link pop-up-call-btn">Обратный звонок</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  -->
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<a href="index.html" class="body-header__logo">МебельКо</a>
+					<nav data-da=".mobile__menu__container, 950" class="body-header__navigation navigation">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Кровати</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Столы</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Стулья</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Кресла</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Диваны</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Тумбы</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Комоды</a>
+							</li>
+							<li class="navigation__item">
+								<a href="catalog.html" class="navigation__link">Декор</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header-icons">
+						<a href="" class="phone-icon">
+							<img src="img/icons/Phone.svg" alt="" />
+						</a>
+						<div class="burger">
+							<span></span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="mobile__menu">
+				<div class="mobile__menu__container"></div>
+				<div class="mobile__footer">
+				</div>
+			</div>
+
+
+
+
+
+			<!-- popup -->
+			<div class="pop-up-call">
+				<div class="pop-up-call-container">
+					<div class="pop-up-call-body">
+						<p>Заказать обратный звонок</p>
+						<form action="">
+							<input type="text" name="" id="" placeholder="Имя" />
+							<input type="text" name="" id="" placeholder="Телефон" />
+							<button>Свяжитесь со мной</button>
+						</form>
+						<div class="pop-up-call-close">&#10006</div>
+					</div>
+				</div>
+			</div>
+			<!-- popup -->
+		</header>
+
+		<main class="page page__inner">
+			<div class="page__header">
+				<div class="page__container">
+					<nav class="page-breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="index.html" class="breadcrumbs__link">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<span class="breadcrumbs__current">Каталог</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="catalog">
+				<div class="catalog__container">
+					<div class="catalog__body">
+						<!-- popup -->
+						<div class="pop-up-filter">
+							<div class="pop-up-filter-container">
+								<div class="pop-up-filter-body">
+									<!--  -->
+									<div class="catalog__filter filter-catalog">
+										<div class="filter-catalog__price price-filter">
+											<div class="price-filter__instock checkbox">
+												<div class="checkbox">
+													<input class="checkbox__input" type="checkbox" name="stock" value="stock" id="stock" /><label class="checkbox__label" for="stock">В наличии</label>
+												</div>
+											</div>
+											<div class="price-filter__title">Цена</div>
+											<div data-range class="price-filter__body">
+
+												<div class="price-filter__range" id="range-slider"></div>
+
+												<div class="price-filter__inputs">
+													<input type="number" min="500" max="999999" placeholder="500" class="price-filter__input" id="input-0" />
+
+													<input type="number" min="500" max="999999" placeholder="999999" class="price-filter__input" id="input-1" />
+												</div>
+											</div>
+
+
+											<div class="price-filter__materials">
+												<div class="price-filter__materials-title">Тип ткани</div>
+												<div class="price-filter__materials-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="textile" value="leather" id="leather" /><label class="checkbox__label" for="leather">Искуственная кожа</label>
+												</div>
+												<div class="price-filter__materials-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="textile" value="suede" id="suede" /><label class="checkbox__label" for="suede">Искуственная замша</label>
+												</div>
+
+												<div class="price-filter__materials-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="textile" value="jacquard" id="jacquard" /><label class="checkbox__label" for="jacquard">Жаккард</label>
+												</div>
+												<div class="price-filter__materials-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="textile" value="velour" id="velour" /><label class="checkbox__label" for="velour">Велюр</label>
+												</div>
+											</div>
+
+											<div class="price-filter__style">
+												<div class="price-filter__style-title">Тип ткани</div>
+												<div class="price-filter__style-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="style" value="provence" id="provence" /><label class="checkbox__label" for="provence">Прованс</label>
+												</div>
+												<div class="price-filter__style-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="style" value="loft" id="loft" /><label class="checkbox__label" for="loft">Лофт</label>
+												</div>
+												<div class="price-filter__style-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="style" value="modern" id="modern" /><label class="checkbox__label" for="modern">Модерн</label>
+												</div>
+											</div>
+											<div class="price-filter__mechanism">
+												<div class="price-filter__mechanism-title">
+													Механизм трансформации
+												</div>
+												<div class="price-filter__mechanism-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="mechanism" value="accordion" id="accordion" /><label class="checkbox__label" for="accordion">Аккордеон</label>
+												</div>
+												<div class="price-filter__mechanism-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="mechanism" value="without" id="without" /><label class="checkbox__label" for="without">Без механизма</label>
+												</div>
+												<div class="price-filter__mechanism-item checkbox">
+													<input class="checkbox__input" type="checkbox" name="mechanism" value="roll" id="roll" /><label class="checkbox__label" for="roll">Выкатной</label>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<!--  -->
+									<div class="pop-up-filter-close">&#10006</div>
+								</div>
+							</div>
+						</div>
+						<!-- popup -->
+
+						<!--  -->
+						<!--  -->
+						<div class="catalog__content">
+							<div class="catalog__control">
+								<span class="catalog__control-text">Сортировать по:</span>
+								<select id="price-select" name="" class="control">
+									<option value="default" selected>По умолчанию</option>
+									<option value="lowToHigh">По возростанию цены</option>
+									<option value="HighToLow">По убыванию цены</option>
+								</select>
+								<!--  -->
+								<button class="filter-btn-mobile">
+									<img src="img/icons/Filter.svg" alt="">
+								</button>
+								<!--  -->
+							</div>
+							<div class="catalog__products products-catalog">
+								<div data-price="22000" class="item-cards item suede provence accordion stock">
+									<div class="item-cards__body">
+										<div class="item-cards__body-sale">-19%</div>
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/1.webp" type="image/webp"><img src="img/catalog/1.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">22000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="500" class="item-cards item out-of-stock">
+									<div class="item-cards__body">
+										<div class="item-cards__body-sale">-19%</div>
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/2.webp" type="image/webp"><img src="img/catalog/2.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">500 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="33000" class="item-cards item stock">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/3.webp" type="image/webp"><img src="img/catalog/3.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">33000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="38000" class="item-cards item">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/4.webp" type="image/webp"><img src="img/catalog/4.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">38000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="34000" class="item-cards item stock">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/5.webp" type="image/webp"><img src="img/catalog/5.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">34000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="7000" class="item-cards item">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/6.webp" type="image/webp"><img src="img/catalog/6.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">7000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="88000" class="item-cards item leather loft accordion stock">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/1.webp" type="image/webp"><img src="img/catalog/1.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">88000 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="2020" class="item-cards item leather stock">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/2.webp" type="image/webp"><img src="img/catalog/2.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">2020 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div data-price="3333" class="item-cards item suede stock">
+									<div class="item-cards__body">
+										<a href="product.html">
+											<div class="item-cards__image">
+												<picture><source srcset="img/catalog/3.webp" type="image/webp"><img src="img/catalog/3.png" alt="мебель" /></picture>
+											</div>
+											<div class="item-cards__description">
+												<h3 class="item-cards__title">Диван Лондон BMS</h3>
+												<div class="item-cards__price">
+													<span class="price-crossed">42000 ₽</span>
+													<span class="price">3333 ₽</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<button class="catalog__more-btn">Показать еще</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__item">
+						<h3 class="body-footer__item-title">Телефоны:</h3>
+
+						<a href="">8(800)555-35-35</a>
+						<span>Ежедневно с 09:00 до 23:00</span>
+
+						<a href="">8(800)555-35-35</a>
+						<span>Ежедневно с 09:00 до 23:00</span>
+
+						<h3 class="body-footer__item-title footer-email">E-mail адрес:</h3>
+						<a href="">mebelco@mail.ru</a>
+						<span>Отдел продаж</span>
+					</div>
+
+					<div class="body-footer__item">
+						<h3 class="body-footer__item-title">Режим работы:</h3>
+						<p>Ежедневно с 09:00 до 23:00</p>
+						<span>Отдел продаж</span>
+						<p>Будни с 09:00 до 23:00</p>
+						<span>Производство</span>
+						<p>Будни с 09:00 до 23:00</p>
+						<span>Доставка и сборка</span>
+						<div class="body-footer__item-social">
+							<a href="">
+								<img src="img/icons/InstagramLogo.svg" alt="" />
+							</a>
+							<a href="">
+								<img src="img/icons/ok.svg" alt="" />
+							</a>
+							<a href="">
+								<img src="img/icons/vkLogo.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="body-footer__item">
+						<h3 class="body-footer__item-title">Каталог</h3>
+						<a href="catalog.html">Кровати</a>
+						<a href="catalog.html">Столы</a>
+						<a href="catalog.html">Стулья</a>
+						<a href="catalog.html">Кресла</a>
+						<a href="catalog.html">Диваны</a>
+						<a href="catalog.html">Тумбы</a>
+						<a href="catalog.html">Комоды</a>
+						<a href="catalog.html">Декор</a>
+					</div>
+					<div class="body-footer__item">
+						<h3 class="body-footer__item-title">Информация</h3>
+						<a href="contacts.html">Адреса магазинов</a>
+						<a href="delivery.html">Как заказать</a>
+						<a href="">Статус заказа</a>
+						<a href="">Отзывы</a>
+						<a href="">Гарантия</a>
+						<a href="">Доставка и оплата</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230326174444"></script>
+</body>
+
+</html>
